@@ -6,7 +6,7 @@ import re
 
 import scrapy
 
-from chinese_shops.items import ChineseShopsItem
+from chinese_shop.items import ChineseShopsItem
 
 
 def parse_numbers(string):

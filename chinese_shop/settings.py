@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for chinese_shops project
+# Scrapy settings for chinese_shop project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'chinese_shops'
+BOT_NAME = 'chinese_shop'
 
-SPIDER_MODULES = ['chinese_shops.spiders']
-NEWSPIDER_MODULE = 'chinese_shops.spiders'
+SPIDER_MODULES = ['chinese_shop.spiders']
+NEWSPIDER_MODULE = 'chinese_shop.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'chinese_shops (+http://www.yourdomain.com)'
+#USER_AGENT = 'chinese_shop (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'chinese_shops.middlewares.ChineseShopsSpiderMiddleware': 543,
+#    'chinese_shop.middlewares.ChineseShopsSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'chinese_shops.middlewares.MyCustomDownloaderMiddleware': 543,
+#    'chinese_shop.middlewares.MyCustomDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'chinese_shops.pipelines.SomePipeline': 300,
+#    'chinese_shop.pipelines.SomePipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

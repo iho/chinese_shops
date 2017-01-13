@@ -1,7 +1,7 @@
-# chinese_shops
+# chinese_shop
 ## Require 
 - Python 2 
-- prepered virtualenv
+- prepared virtualenv
 
 ## Install
 ```
